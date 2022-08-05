@@ -1,0 +1,68 @@
+# components:
+* switch: 2960
+* router: 2911
+* two PCs: PC-PT
+* four servers: server-PT
+
+# router
+* select GigabitEthernet0/0 interface
+* turn on router
+* IPv4 address: 192.168.0.1
+
+* dhcp
+* go to `desktop` tab
+* IPv4 address: 192.168.0.2
+* Dafault gateway: 192.168.0.1
+* DNS server: 192.168.0.3
+* close `desktop` and go to `services` tab
+* select DHCP
+* Default gateway: 192.168.0.1
+* DNS server: 192.168.0.4
+
+# web/http
+* go to `desktop` tab
+* IPv4 address: 192.168.0.3
+* Default gateway: 192.168.0.1
+* DNS server: 192.168.0.4
+
+#dns
+* go to `desktop` tab
+* IPv4 address: 192.168.0.4
+* Default gateway: 192.168.0.1
+* DNS server: 192.168.0.4
+* close `desktop` and go to `services` tab
+* select DNS
+* set a name, like: www.hasib.com
+* set an address with respect default DNS server
+* click on `add` button below
+
+# mail
+* go to `desktop` tab
+* IPv4 address: 192.168.0.5
+* Default gateway: 192.168.0.1
+* DNS server: 192.168.0.4
+* close `desktop` and go to `services` tab
+* select EMAIL
+* turn on SMTP & POP3
+* set domain name with respect DNS name, like: hasib.com
+* set user, like: User: Admin & Password: Admin
+* set user, like: User: User & Password: User
+* Add individual by click on + sign below right
+
+# User & Admin
+* go to `desktop` tab
+* Choose IP configuration DHCP
+* close IP configuration and choose `Email`
+* Configure email for
+	* admin
+		* your name: Admin
+		* email address: admin@hasib.com
+		* incoming & outgoin mail server: 192.168.0.5
+		* user name: Admin
+		* password: Admin
+	* user
+		* your name: User
+		* email address: user@hasib.com
+		* incoming & outgoing mail server: 192.168.0.5
+		* user name: User
+		* password: User
