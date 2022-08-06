@@ -1,0 +1,3 @@
+# components
+* Router [PT-Router]
+	* Module [PT-ROUTER-NM-1CGE]
