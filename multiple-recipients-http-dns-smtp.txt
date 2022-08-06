@@ -1,3 +1,11 @@
 # components
 * Router [PT-Router]
 	* Module [PT-ROUTER-NM-1CGE]
+* Switch [2960]
+* Server [Server-PT]
+* PC [PC-PT]
+
+* for each switch configure router IPv4 address
+* configure HTTP, DNS & SMTP for each switch
+* configure services for DNS & EMAIL
+* configure IP configuration based on switch to router port just make separation in DNS server.
