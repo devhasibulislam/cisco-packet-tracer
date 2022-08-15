@@ -1,0 +1,8 @@
+### Static Routing
+## Components
+* 2 Router: 2811
+	* Module: WIC-1T
+* 2 Swtich: 2960
+* 2 PC: PC-PT
+
+// ref: https://www.youtube.com/watch?v=FsAqaq8hrKI&t=381s
