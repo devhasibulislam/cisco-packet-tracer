@@ -1,0 +1,8 @@
+### RIP Routing
+## Components
+* 2 Router: 2811
+	* Module: WIC-1T
+* 2 Switch: 2960
+* 2 PC: PC-PT
+
+// ref: https://www.youtube.com/watch?v=krM9GprN6qA&t=399s
